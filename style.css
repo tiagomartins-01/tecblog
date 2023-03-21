@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+header {
+    width: 100%;
+    background-color: #f7b600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.logo-area, nav {
+    padding: 10px;
+}
+
+.logo-area h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+
+.branco {
+    color: white;
+}
+
+header a:link, header a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+header a:hover {
+    color: #f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 10px;
+}
+
+.main, footer {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 660px;
+    float: left;
+}
+
+aside {
+    width: 240px;
+    float: right;
+}
+
+.side-content {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.side-text {
+    font-size: 0.8em;
+    padding: 5px;
+}
